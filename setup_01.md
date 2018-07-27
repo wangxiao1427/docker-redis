@@ -11,7 +11,7 @@
   >docker ps  
   >container-id  image command  ...  
   >74404d727c07   redis "docker-entrypoint..."  
-- 使用镜像执行redis-cli命令连接到刚启动的容器    
+- 使用镜像执行redis-cli命令连接到刚启动的容器  
   >docker exec -it 74404d727c07 redis-cli  
   >127.0.0.1:6379> set name shaw_wg  
   >127.0.0.1:6379> get name  
